@@ -13,5 +13,5 @@ commands:
 
 permissions:
   formapi.command.form:
-    default: true
+    default: op
     description: FormAPI Command
