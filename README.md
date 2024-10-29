@@ -24,7 +24,7 @@ private void simpleForm(Player player) {
 ## ModalForm
 ```java
 private void modalForm(Player player) {
-  ModalForm form = new ModalForm((tPlayer, fPlayer, data) -> {
+  ModalForm form = new ModalForm((tPlayer, tForm, data) -> {
     if (data == null) {
       tPlayer.sendMessage("You closed the form");
       return;
@@ -46,7 +46,7 @@ private void modalForm(Player player) {
 ## CustomForm
 ```java
 private void customForm(Player player) {
-  CustomForm form = new CustomForm((tPlayer, fPlayer, data) -> {
+  CustomForm form = new CustomForm((tPlayer, tForm, data) -> {
     if (data == null) {
       tPlayer.sendMessage("You closed the form");
       return;

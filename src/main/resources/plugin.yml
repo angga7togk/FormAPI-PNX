@@ -4,14 +4,3 @@ version: 1.0.0
 api: 2.0.0
 author: Angga7Togk
 description: FormAPI for PowerNukkitX
-
-commands:
-  form:
-    description: FormAPI Command
-    permission: formapi.command.form
-    aliases: [formapi]
-
-permissions:
-  formapi.command.form:
-    default: op
-    description: FormAPI Command
