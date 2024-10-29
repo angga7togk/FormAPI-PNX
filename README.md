@@ -2,6 +2,24 @@
 
 FormAPI plugin for PowerNukkitX
 
+## Maven
+
+```xml
+<repositories>
+  <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+```
+```xml
+<dependency>
+    <groupId>com.github.angga7togk</groupId>
+    <artifactId>FormAPI-PNX</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## SimpleForm
 
 ```java
@@ -22,6 +40,7 @@ private void simpleForm(Player player) {
 ```
 
 ## ModalForm
+
 ```java
 private void modalForm(Player player) {
   ModalForm form = new ModalForm((tPlayer, tForm, data) -> {
@@ -44,6 +63,7 @@ private void modalForm(Player player) {
 ```
 
 ## CustomForm
+
 ```java
 private void customForm(Player player) {
   CustomForm form = new CustomForm((tPlayer, tForm, data) -> {
